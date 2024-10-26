@@ -5,7 +5,7 @@ import assemblyai as aai
 from openai import OpenAI
 
 aai.settings.api_key = st.secrets["assemblyai"]["api_key"]
-client = OpenAI(api_key=st.secrets["openai"]["api_key "])
+client = OpenAI(api_key=st.secrets["openai"]["api_key"])
 
 
 def mp4_to_mp3(mp4_filename, mp3_filename):
