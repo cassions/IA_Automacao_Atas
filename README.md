@@ -29,15 +29,19 @@ https://resumevideo.streamlit.app/
 
 Criar arquivo .streamlit/secrets.toml contendo:
 
+```
 [openai]
 api_key = 'SUA_CHAVE'
 
 [assemblyai]
 api_key = 'SUA_CHAVE'
+```
 
 ## Sandbox
 
 Pasta sandbox contém os testes e exploração que foram feitos antes de criar o projeto. Caso queria executar os script crie um arquivo .env contendo:
 
+```
 OPENAI_API_KEY = 'SUA_CHAVE'
 ASSEMBLYAI_API_KEY = 'SUA_CHAVE'
+```
