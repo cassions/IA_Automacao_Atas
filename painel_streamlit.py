@@ -56,7 +56,7 @@ if uploaded_file:
         transcricao = transcriber.transcribe(mp3_filename, config=config)
         texto_transcrito = ""
 
-    with st.spinner("Gernado ata de reunião"):
+    with st.spinner("Gerando ata de reunião"):
         prompt_system = "Você é um ótimo gerente de projetos com grandes capacidades de criação de atas de reunião"
         prompt_text = "Em uma redação de nível especializado, resuma as notas da reunião em um único parágrafo. Em seguida, escreva uma lista de cada um de seus pontos-chaves tratados na reunião. Por fim, liste as próximas etapas ou itens de ação sugeridos pelos palestrantes, se houver."
         prompt_text += "==========="
